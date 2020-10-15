@@ -1,0 +1,23 @@
+.container-searchBook{
+    padding: 5px;
+    max-width: 1180px;
+    margin: 20%;
+}
+.btn{
+    background-color:  rgba(61, 64, 91) !important;
+    color: rgb(244,241,222);
+    border-color: rgba(61, 64, 91) !important;
+} 
+.card{
+    background-color:rgb(244,241,222) !important;  
+}
+.card-img{
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+}
+.summary{
+    flex-wrap: wrap;
+    height: 150px;
+    overflow: auto;
+}

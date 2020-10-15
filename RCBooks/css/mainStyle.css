@@ -1,0 +1,170 @@
+html body{
+    background-color:rgb(244,241,222);
+    scroll-behavior: smooth;
+}
+.nav-link {
+    color: rgb(244,241,222) !important;
+}
+.textR{
+    color: rgb(129,178,154)
+}
+.textC{
+    color: rgb(224,122,95)
+}
+.navbar-custom {
+    background: linear-gradient(180deg, rgb(108, 113, 160) 0%, rgba(61, 64, 91) 72%);
+    color: rgb(244,241,222);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.navbar-custom2{
+    background-color: rgb(129,178,154);
+    color: rgb(244,241,222);
+    font-weight: bold;
+
+}
+.navbar-custom  img{
+    width: 90px;
+    height: 90px;  
+}
+.custom-toggler .navbar-toggler-icon {
+    border-color:rgb(244,241,222);
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image:url( 
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244,241,222)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#carouselExampleControls{
+    padding: 10px;
+    align-content: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(244,241,222);   
+    border-color:rgba(61, 64, 91); 
+}
+#cardsCarrousel{
+    height: 300px;
+    width: auto;
+    background-color:rgb(244,241,222);
+}
+.col-md-4{
+    background-color:rgb(244,241,222);
+}
+.card-img {
+    padding: 5px;
+    margin-top: 20px;
+    height: auto;
+    width: auto;
+    background-color:rgb(244,241,222);
+}
+.card-body-carrousel{
+    color: black;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 300px;
+    width: auto;
+    background-color:rgb(244,241,222);
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    opacity: 0.8;
+	background-color: black !important;
+}
+#cardsColectionIndex{
+    padding: 20px;
+}
+.card-img-top{
+    height: 350px;
+}
+.card-body{
+    height: 300px;
+    overflow: auto;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 3.5rem; 
+    justify-content: space-between;
+    background: rgb(61, 64, 91);
+    background: linear-gradient(180deg, rgb(108, 113, 160) 0%, rgba(61, 64, 91) 72%);
+    color: rgb(244,241,222);
+}
+.footer img{
+    width: 60px;
+    height: 60px;    
+}
+.footersec{
+    background-color: rgb(129,178,154);
+}
+.indexPage{
+    color: black;
+}
+.footericon{
+    max-width: 30px;
+    max-height: 30px;
+}
+.unselectable{
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+.fondo2{
+    margin: 2%;
+    background-color:  rgb(108, 113, 160) ;
+    border-style: solid;
+    border-color:rgba(61, 64, 91);
+    border-radius: 15px;
+  }
+  table .btnedit {
+    color: lightgreen;
+    cursor: pointer;
+  }
+  table .btndelete {
+    color: tomato;
+    cursor: pointer;
+  }
+h1 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0 0 72px;
+    text-align: center;
+}
+p {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0 0 24px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+h5 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+#rclogo {
+    width: 10em;
+    border-radius: 5%;
+    height: auto;
+    margin: auto;
+    display: block;
+    justify-content: center;
+}
+.fondo2{
+    background-color:  white ;
+    border-style: solid;
+    border-color:rgba(61, 64, 91);
+    border-radius: 15px;
+}

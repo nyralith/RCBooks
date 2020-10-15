@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/newUserStyles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>RC Books - Nuevo Usuario</title>
+</head>
+
+<body id="myBody">
+    <div id="navBar"></div>
+    <figure>
+        <img id="rclogo" src="https://i.ibb.co/vL7tJrW/RC-Logo.png" alt="RC-Logo">
+    </figure>
+    <div class="container mt-5 fondo">
+        <main>
+            <form action="" class="newUserform" id="newUserform" onsubmit="addUser(event)">
+                <div class="form__group form" id="group__newuser">
+                    <label for="newUser" class="form__label">Usuario</label>
+                    <div class="form__group-input">
+                        <input type="text" class="form__input" name="newuser" id="newUser" placeholder="Juan-25">
+                        <i class="form__validation-state fas fa-times-circle"></i>
+                    </div>
+                    <p class="form__input-error">El usuario puede tener 4 a 16 dígitos y solo puede contener numeros,
+                        letras
+                        y guion bajo</p>
+                </div>
+                <div class="form__group form" id="group__newname">
+                    <label for="newname" class="form__label">Nombre completo</label>
+                    <div class="form__group-input">
+                        <input type="text" class="form__input" name="newname" id="newname" placeholder="Juan Perez">
+                        <i class="form__validation-state fas fa-times-circle"></i>
+                    </div>
+                    <p class="form__input-error">El usuario puede tener 4 a 16 dígitos y solo puede contener numeros,
+                        letras
+                        y guion bajo</p>
+                </div>
+                <div class="form__group form" id="group__newpassword">
+                    <label for="newpassword" class="form__label">Contraseña</label>
+                    <div class="form__group-input">
+                        <input type="password" class="form__input" name="newpassword" id="newpassword">
+                        <i class="form__validation-state fas fa-times-circle"></i>
+                    </div>
+                    <p class="form__input-error">La contraseña debe tener de 4 a 12 digitos</p>
+                </div>
+                <div class="form__group form" id="group__password2">
+                    <label for="password2" class="form__label">Repetir contraseña</label>
+                    <div class="form__group-input">
+                        <input type="password" class="form__input" name="password2" id="password2">
+                        <i class="form__validation-state fas fa-times-circle"></i>
+                    </div>
+                    <p class="form__input-error">Ambas contraseñas deben ser iguales</p>
+                </div>
+                <div class="form__group form" id="group__email">
+                    <label for="email" class="form__label">Correo electrónico</label>
+                    <div class="form__group-input">
+                        <input type="email" class="form__input" name="email" id="email" placeholder="correo@correo.com">
+                        <i class="form__validation-state fas fa-times-circle"></i>
+                    </div>
+                    <p class="form__input-error">El correo solo puede tener números, letras, guiones y guiones bajos</p>
+                </div>
+                <div class="form__group form" id="group__phone">
+                    <label for="phone" class="form__label">Teléfono</label>
+                    <div class="form__group-input">
+                        <input type="phone" class="form__input" name="phone" id="phone" placeholder="1156562535">
+                        <i class="form__validation-state fas fa-times-circle"></i>
+                    </div>
+                    <p class="form__input-error">El telefono solo puede contener números y el máximo son 12 dígitos</p>
+                </div>
+                <div class="form__group" id="group__terms">
+                    <label class="form__label">
+                        <input class="form__checkbox" type="checkbox" name="terms" id="terms">
+                        Acepto los terminos y condiciones
+                    </label>
+                </div>
+                <div class="form__message" id="form__newmessage">
+                    <p><i class="fas fa-exclamation-triangle"></i><b> Error: </b>Complete los campos</p>
+                </div>
+                <div class="form__group form__group-btn-send">
+                    <button type="submit" class="form__btn">Ingresar</button>
+                    <p class="form__message-successful" id="form__newmessage-successful">Ingreso exitoso</p>
+                </div>
+            </form>
+        </main>
+    </div>
+    <div id="footerRC"></div>
+    <script src="js/NavBarFooter.js"></script>
+    <script src="js/newUser.js"></script>
+    <script src="https://kit.fontawesome.com/918cd60e89.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

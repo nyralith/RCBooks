@@ -1,0 +1,10 @@
+.cardAbout{
+  padding: 5px;
+  background: linear-gradient(180deg, rgb(108, 113, 160) 0%, rgba(61, 64, 91) 72%);
+  border: solid;
+  border-color: #222433; 
+}
+.card-img-top{
+    max-width: 390px;
+    margin-right: 15px;
+}
